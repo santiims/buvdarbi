@@ -5,17 +5,45 @@
 <div class="jumbotron text-center">
   <h1 class="display-2">Viedie būvdarbi</h1>
 </div>
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
+    <a class="navbar-brand mr-5 ml-5" href="#">Viedie būvdarbi</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
   
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Sākums <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Vakances
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Visi darbi</a>
+            <a class="dropdown-item" href="#">Darbi Rīgā</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">...</a>
+          </div>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Meklēt" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Meklēt</button>
+      </form>
+    </div>
+  </nav>
 <div class="container p-5">
   <div class="row p-5 justify-content-center align-self-center">
     <div class="col-sm-4 ">
-        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#devejaModal"><h3>Darba devējiem</h3>
-            <p>Ja esi darba devējs un vēlies piereģistrēties</p>
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#devejaModal"><h3>Pasūtītāji</h3>
+            <p>Ja esi darba devējs un vēlies pieteikt vakanci</p>
             <p>Klikšķini šeit!</p></button>
     </div>
     <div class="col-sm-4">
-        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#nemejaModal"><h3>Darba ņēmējiem</h3>
-            <p>Ja esi darba ņēmējs un vēlies piereģistrēties</p>
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#nemejaModal"><h3>Strādnieki</h3>
+            <p>Ja esi darba ņēmējs un vēlies pieteikties vakancei</p>
             <p>Klikšķini šeit!</p></button>
     </div>
   </div>
