@@ -1,0 +1,10 @@
+{
+	"autoload": {
+		"psr-4": {
+			"Buvdarbi\\": "src/"
+		}
+	},
+	"require": {
+		"illuminate/database": "^5.8"
+	}
+}
