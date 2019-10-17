@@ -7,6 +7,7 @@ use Buvdarbi\Route;
 
 require_once '../vendor/autoload.php';
 require_once '../src/bootstrap.php';
+require_once '../src/functions.php';
 
 /**
  * @var Route[] $routes
